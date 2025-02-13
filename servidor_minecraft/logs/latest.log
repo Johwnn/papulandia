@@ -1,71 +1,108 @@
-[03:34:07] [Server thread/INFO]: Starting minecraft server version 1.8.9
-[03:34:08] [Server thread/INFO]: Loading properties
-[03:34:08] [Server thread/INFO]: Default game type: SURVIVAL
-[03:34:08] [Server thread/INFO]: Generating keypair
-[03:34:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:34:08] [Server thread/INFO]: Using epoll channel type
-[03:34:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:34:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:34:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:34:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:34:09] [Server thread/WARN]: Failed to load user banlist: 
-java.io.FileNotFoundException: banned-players.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_442]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_442]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_442]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[mb.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152620_y(SourceFile:99) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:25) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:206) [ko.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[03:34:09] [Server thread/WARN]: Failed to load ip banlist: 
-java.io.FileNotFoundException: banned-ips.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_442]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_442]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_442]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[mb.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152619_x(SourceFile:91) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:27) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:206) [ko.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[03:34:09] [Server thread/WARN]: Failed to load operators list: 
-java.io.FileNotFoundException: ops.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_442]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_442]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_442]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[mb.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:206) [ko.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[03:34:09] [Server thread/WARN]: Failed to load white-list: 
-java.io.FileNotFoundException: whitelist.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_442]
-	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_442]
-	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_442]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[mb.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [kn.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:206) [ko.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[03:34:09] [Server thread/INFO]: Preparing level "world"
-[03:34:09] [Server thread/INFO]: Preparing start region for level 0
-[03:34:10] [Server thread/INFO]: Preparing spawn area: 5%
-[03:34:11] [Server thread/INFO]: Preparing spawn area: 16%
-[03:34:12] [Server thread/INFO]: Preparing spawn area: 33%
-[03:34:13] [Server thread/INFO]: Preparing spawn area: 48%
-[03:34:14] [Server thread/INFO]: Preparing spawn area: 70%
-[03:34:15] [Server thread/INFO]: Preparing spawn area: 95%
-[03:34:15] [Server thread/INFO]: Done (6.636s)! For help, type "help" or "?"
-[03:36:59] [Server thread/INFO]: Johaanw[/127.180.57.64:55191] logged in with entity id 1750 at (-150.5, 64.0, -200.5)
-[03:36:59] [Server thread/INFO]: Johaanw joined the game
-[03:38:36] [Server thread/INFO]: Johaanw lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[03:38:36] [Server thread/INFO]: Johaanw left the game
+[03:26:40] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[03:26:42] [Server thread/INFO]: Loading properties
+[03:26:42] [Server thread/INFO]: Default game type: SURVIVAL
+[03:26:42] [Server thread/INFO]: Generating keypair
+[03:26:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:26:42] [Server thread/INFO]: Using epoll channel type
+[03:26:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:26:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:26:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:26:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:26:46] [Server thread/WARN]: Adding mismatching tag types to tag list
+[03:26:46] [Server thread/WARN]: Adding mismatching tag types to tag list
+[03:26:46] [Server thread/WARN]: Adding mismatching tag types to tag list
+[03:26:46] [Server thread/WARN]: Adding mismatching tag types to tag list
+[03:26:46] [Server thread/WARN]: Adding mismatching tag types to tag list
+[03:26:46] [Server thread/WARN]: Adding mismatching tag types to tag list
+[03:26:46] [Server thread/INFO]: Preparing level "world"
+[03:26:47] [Server thread/INFO]: Preparing start region for level 0
+[03:26:48] [Server thread/INFO]: Done (1.396s)! For help, type "help" or "?"
+[03:27:39] [Server thread/INFO]: Johaanw[/127.180.57.64:39449] logged in with entity id 31 at (406.4755008870604, 56.0, 84.83624840130769)
+[03:27:39] [Server thread/INFO]: Johaanw joined the game
+[03:27:43] [Server thread/INFO]: [@: Teleported Johaanw to -168.5, 111.0, 88.5]
+[03:27:43] [Server thread/INFO]: [@: Set Johaanw's spawn point to (-168, 111, 88)]
+[03:27:57] [Server thread/INFO]: [@: Title command successfully executed]
+[03:27:59] [Server thread/INFO]: [@: Title command successfully executed]
+[03:28:01] [Server thread/INFO]: [@: Title command successfully executed]
+[03:28:06] [Server thread/INFO]: [@: Set Johaanw's spawn point to (-168, 111, 88)]
+[03:28:30] [Server thread/INFO]: [@: Title command successfully executed]
+[03:28:32] [Server thread/INFO]: [@: Title command successfully executed]
+[03:28:34] [Server thread/INFO]: [@: Title command successfully executed]
+[03:29:20] [Server thread/INFO]: [Johaanw: Set own game mode to Survival Mode]
+[03:29:23] [Server thread/INFO]: [Astral Poison Mage: Added new objective 'astralMageLegsF' successfully]
+[03:29:23] [Server thread/INFO]: [Astral Poison Mage: Added new objective 'astralMageLegsS' successfully]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Johaanw for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Johaanw for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Johaanw for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Johaanw for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Johaanw for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Johaanw for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:24] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:25] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Johaanw for 3 seconds]
+[03:29:25] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Johaanw for 5 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Poison (ID 19) * 3 to Astral Poison Mage for 3 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:26] [Server thread/INFO]: [entity.lootplusplus.ThrownItem.name: Given Nausea (ID 9) * 0 to Astral Poison Mage for 5 seconds]
+[03:29:26] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:26] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:26] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:26] [Server thread/INFO]: [Astral Poison Mage: Took Nausea from Astral Poison Mage]
+[03:29:28] [Server thread/INFO]: Johaanw was dispatched by Astral Poison Mage using Poisoned Throwing Star
+[03:29:47] [Server thread/INFO]: [Johaanw: Set own game mode to Creative Mode]
+[03:35:07] [Server thread/INFO]: [Johaanw: Stopping the server]
+[03:35:07] [Server thread/INFO]: Stopping server
+[03:35:07] [Server thread/INFO]: Saving players
+[03:35:07] [Server thread/INFO]: Saving worlds
+[03:35:07] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[03:35:07] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[03:35:07] [Server thread/INFO]: Saving chunks for level 'world'/The End

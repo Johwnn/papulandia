@@ -1,0 +1,18 @@
+{
+  "gameType": "SURVIVAL",
+  "difficulty": "EASY",
+  "cheats": true,
+  "invited": [
+    "219f1bd5-49cb-4dfb-94cf-918d857be7b0",
+    "c9089b80-a700-4d10-87db-f9654d84da66",
+    "57176592-e111-480a-ac70-58324fd60cc2",
+    "cbdf5fa6-882c-4fd6-bfa6-e1f8293ef9f8"
+  ],
+  "shareResourcePack": false,
+  "oppedPlayers": [
+    "219f1bd5-49cb-4dfb-94cf-918d857be7b0",
+    "c9089b80-a700-4d10-87db-f9654d84da66",
+    "57176592-e111-480a-ac70-58324fd60cc2",
+    "cbdf5fa6-882c-4fd6-bfa6-e1f8293ef9f8"
+  ]
+}
